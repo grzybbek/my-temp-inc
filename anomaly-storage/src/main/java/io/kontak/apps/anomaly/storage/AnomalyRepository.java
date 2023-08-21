@@ -35,7 +35,7 @@ public interface AnomalyRepository extends MongoRepository<AnomalyDocument, Stri
                     {
                         $match: {
                             anomaliesCount: {
-                              $gt: ?0,
+                              $gte: ?0,
                             },
                           },
                       }""",
