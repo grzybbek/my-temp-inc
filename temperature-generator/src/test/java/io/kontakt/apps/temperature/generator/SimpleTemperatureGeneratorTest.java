@@ -1,6 +1,7 @@
-package io.kontak.apps.temperature.generator;
+package io.kontakt.apps.temperature.generator;
 
 import io.kontak.apps.event.TemperatureReading;
+import io.kontak.apps.temperature.generator.SimpleTemperatureGenerator;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.RepeatedTest;
 import org.junit.jupiter.api.Test;
