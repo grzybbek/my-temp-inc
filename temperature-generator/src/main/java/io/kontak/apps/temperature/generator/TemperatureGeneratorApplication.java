@@ -7,7 +7,7 @@ import org.springframework.scheduling.annotation.EnableScheduling;
 @SpringBootApplication
 @EnableScheduling
 public class TemperatureGeneratorApplication {
-	public static void main(String[] args) {
-		SpringApplication.run(TemperatureGeneratorApplication.class, args);
-	}
+    public static void main(String[] args) {
+        SpringApplication.run(TemperatureGeneratorApplication.class, args);
+    }
 }
